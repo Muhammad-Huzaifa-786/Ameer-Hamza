@@ -1,0 +1,149 @@
+@media (max-width:450px) {
+    #nav-width {
+
+        width: 100%;
+
+    }
+
+}
+
+@media(max-width:1188px) {
+
+    .fivething {
+        width: 40vw !important;
+    }
+
+}
+
+@media(max-width:507px) {
+
+    .fivething {
+        width: 80vw !important;
+    }
+
+}
+@media(max-width:1272px) {
+
+    .donate {
+        width: 45vw !important;
+    }
+
+
+@media(max-width:800px) {
+
+    #imgcar{
+        display: none;
+    }
+#hero{
+    text-align: center !important;
+    width: 100% !important;
+    padding: none !important;
+    margin: none !important;
+}
+#maincar{
+    /* justify-content: center; */
+    display: block;
+}
+
+}
+
+}
+
+@media(max-width:450px) {
+    #hero p{
+        font-size: 22px !important;
+    }    #hero h1{
+        font-size: 24px !important;
+    }
+}
+@media(max-width:377px) {
+    #hero h1{
+        font-size: 21px !important;
+    }
+}
+@media(max-width:570px) {
+
+    .donate {
+        width: 80vw !important;
+    }
+
+}
+
+
+.item {
+    background-color: rgb(223, 223, 255);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 200px !important;
+}
+.container {
+    display: flex !important;
+    justify-content: space-around ;
+    gap: 20px;
+    
+}
+
+@media (max-width:992px) {
+    .item{
+        width: 30vw !important;
+      
+    }
+    
+}@media (max-width:481px) {
+    .item{
+        width: 80vw !important;
+      
+    }
+    
+}
+#fiveProvide :hover {
+    transform: scale(1.1);
+    transition: 1s
+}
+
+#donateportion :hover {
+    transform: scale(1.03);
+    transition: 1s
+}
+footer a{
+    text-decoration: none;
+}
+input{
+    text-align: center;
+}
+
+
+.item p {
+    font-size: 24px;
+    font-weight: bold;
+    color: green;
+    text-decoration: underline;
+}
+#hero p{
+font-size: 28px;
+}
+.count-box {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin: 10px;
+    background: #f9f9f9;
+}
+.donat select,input{
+    width: 250px;
+    text-align: center;
+    font-size: larger;
+    height: 40px;
+}
+#container{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeMZxTAcqTpT_BOGi7ujgFav3w46vWM4FFZw&s');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    border-radius: 10px;
+
+    
+}
